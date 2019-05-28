@@ -1,0 +1,4 @@
+eclipse.preferences.version=1
+externalMigrateFromAuthorizationDatabase/isMigrated=true
+migrateFromAuthorizationDatabase/isMigrated=true
+repositories/d0a9ed9ae62b00191483e9d447e70960=d0a9ed9ae62b00191483e9d447e70960;http\://ttitest.net\:8097/core32/micro/stm32/G6/Atollic/F103C8;http\://ttitest.net\:8097/core32/micro/stm32/G6/Atollic/F103C8;branches;tags;trunk;true;9d2acffc-6a8d-4792-b7a9-826eb78e16dc;http\://ttitest.net\:8097/core32;;false;;;0

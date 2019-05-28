@@ -1,0 +1,3 @@
+stm32f1xx_ll_gpio.c:105:13:LL_GPIO_DeInit	0	static
+stm32f1xx_ll_gpio.c:171:13:LL_GPIO_Init	36	static
+stm32f1xx_ll_gpio.c:238:6:LL_GPIO_StructInit	0	static

@@ -1,0 +1,7 @@
+spindle_control.c:65:9:spindle_get_state	0	static
+spindle_control.c:130:6:spindle_stop	0	static
+spindle_control.c:30:6:spindle_init	8	static
+spindle_control.c:178:8:spindle_set_speed	0	static
+spindle_control.c:285:22:spindle_compute_pwm_value	32	static
+spindle_control.c:319:8:spindle_set_state	16	static
+spindle_control.c:370:8:spindle_sync	16	static

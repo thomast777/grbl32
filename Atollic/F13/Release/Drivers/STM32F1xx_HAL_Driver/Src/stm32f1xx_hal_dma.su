@@ -1,0 +1,12 @@
+stm32f1xx_hal_dma.c:159:19:HAL_DMA_Init	8	static
+stm32f1xx_hal_dma.c:236:19:HAL_DMA_DeInit	8	static
+stm32f1xx_hal_dma.c:335:19:HAL_DMA_Start	20	static
+stm32f1xx_hal_dma.c:378:19:HAL_DMA_Start_IT	20	static
+stm32f1xx_hal_dma.c:432:19:HAL_DMA_Abort	0	static
+stm32f1xx_hal_dma.c:460:19:HAL_DMA_Abort_IT	8	static
+stm32f1xx_hal_dma.c:505:19:HAL_DMA_PollForTransfer	40	static
+stm32f1xx_hal_dma.c:606:6:HAL_DMA_IRQHandler	12	static
+stm32f1xx_hal_dma.c:696:19:HAL_DMA_RegisterCallback	8	static
+stm32f1xx_hal_dma.c:747:19:HAL_DMA_UnRegisterCallback	0	static
+stm32f1xx_hal_dma.c:823:22:HAL_DMA_GetState	0	static
+stm32f1xx_hal_dma.c:835:10:HAL_DMA_GetError	0	static

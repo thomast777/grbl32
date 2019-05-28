@@ -1,0 +1,15 @@
+stm32f4xx_ll_bus.h:1411:22:LL_APB1_GRP1_ForceReset	0	static
+stm32f4xx_ll_bus.h:1483:22:LL_APB1_GRP1_ReleaseReset	0	static
+stm32f4xx_ll_tim.c:169:13:LL_TIM_DeInit	8	static
+stm32f4xx_ll_tim.c:286:6:LL_TIM_StructInit	0	static
+stm32f4xx_ll_tim.c:304:13:LL_TIM_Init	0	static
+stm32f4xx_ll_tim.c:355:6:LL_TIM_OC_StructInit	0	static
+stm32f4xx_ll_tim.c:381:13:LL_TIM_OC_Init	12	static
+stm32f4xx_ll_tim.c:412:6:LL_TIM_IC_StructInit	0	static
+stm32f4xx_ll_tim.c:434:13:LL_TIM_IC_Init	8	static
+stm32f4xx_ll_tim.c:464:6:LL_TIM_ENCODER_StructInit	0	static
+stm32f4xx_ll_tim.c:486:13:LL_TIM_ENCODER_Init	12	static
+stm32f4xx_ll_tim.c:548:6:LL_TIM_HALLSENSOR_StructInit	0	static
+stm32f4xx_ll_tim.c:577:13:LL_TIM_HALLSENSOR_Init	20	static
+stm32f4xx_ll_tim.c:655:6:LL_TIM_BDTR_StructInit	0	static
+stm32f4xx_ll_tim.c:680:13:LL_TIM_BDTR_Init	0	static

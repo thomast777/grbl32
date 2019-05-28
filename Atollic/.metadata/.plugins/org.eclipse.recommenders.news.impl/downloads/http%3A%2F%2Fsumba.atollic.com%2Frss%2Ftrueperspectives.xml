@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+  <channel>
+    <title>Atollic</title>
+    <link>http://blog.atollic.com</link>
+    <description>The TruePERSPECTIVES blog discusses topics relevant to STM32 developers and their managers: best practices for embedded development, industry observations, and tips and techniques for using Atollic TrueSTUDIO development tools, ARM Cortex-M development, and more.</description>
+    <language>en-us</language>
+    <pubDate>Mon, 12 Nov 2018 08:58:55 GMT</pubDate>
+    <dc:date>2018-11-12T08:58:55Z</dc:date>
+    <dc:language>en-us</dc:language>
+    <item>
+      <title>Best-practices / FAQ: TrueSTUDIO + STM32CubeMx</title>
+      <link>http://blog.atollic.com/best-practices-faq-truestudio-stm32cubemx</link>
+      <description>&lt;div class="hs-featured-image-wrapper"&gt; 
+ &lt;a href="http://blog.atollic.com/best-practices-faq-truestudio-stm32cubemx" title="" class="hs-featured-image-link"&gt; &lt;img src="https://blog.atollic.com/hubfs/ts_build_c_optimization_level.png" alt="ts_build_c_optimization_level" class="hs-featured-image" style="width:auto !important; max-width:50%; float:left; margin:0 15px 15px 0;"&gt; &lt;/a&gt; 
+&lt;/div&gt;    
+&lt;p&gt;Where to start? This is not a blog article about how to work with STM32CubeMX. There is plenty of information available on that topic on st.com. This blog rather tries to describe the specific challenges that may arise when trying to use STM32CubeMX with TrueSTUDIO. Do not miss the FAQ at the end which are the most common issues that first-time users run into. But first a table of content and some concept definition and orientation...&lt;/p&gt;</description>
+      <content:encoded>&lt;div class="hs-featured-image-wrapper"&gt; 
+ &lt;a href="http://blog.atollic.com/best-practices-faq-truestudio-stm32cubemx" title="" class="hs-featured-image-link"&gt; &lt;img src="https://blog.atollic.com/hubfs/ts_build_c_optimization_level.png" alt="ts_build_c_optimization_level" class="hs-featured-image" style="width:auto !important; max-width:50%; float:left; margin:0 15px 15px 0;"&gt; &lt;/a&gt; 
+&lt;/div&gt;    
+&lt;p&gt;Where to start? This is not a blog article about how to work with STM32CubeMX. There is plenty of information available on that topic on st.com. This blog rather tries to describe the specific challenges that may arise when trying to use STM32CubeMX with TrueSTUDIO. Do not miss the FAQ at the end which are the most common issues that first-time users run into. But first a table of content and some concept definition and orientation...&lt;/p&gt;    
+&lt;img src="https://track.hubspot.com/__ptq.gif?a=460400&amp;amp;k=14&amp;amp;r=http%3A%2F%2Fblog.atollic.com%2Fbest-practices-faq-truestudio-stm32cubemx&amp;amp;bu=http%253A%252F%252Fblog.atollic.com&amp;amp;bvt=rss" alt="" width="1" height="1" style="min-height:1px!important;width:1px!important;border-width:0!important;margin-top:0!important;margin-bottom:0!important;margin-right:0!important;margin-left:0!important;padding-top:0!important;padding-bottom:0!important;padding-right:0!important;padding-left:0!important; "&gt;</content:encoded>
+      <category>Atollic TrueSTUDIO</category>
+      <category>STM32CubeMX</category>
+      <category>STM32Cube</category>
+      <pubDate>Mon, 12 Nov 2018 08:43:55 GMT</pubDate>
+      <author>mattias.norlander@atollic.com (Mattias Norlander)</author>
+      <guid>http://blog.atollic.com/best-practices-faq-truestudio-stm32cubemx</guid>
+      <dc:date>2018-11-12T08:43:55Z</dc:date>
+    </item>
+    <item>
+      <title>TrueSTUDIO for STM32 9.1.0 is released</title>
+      <link>http://blog.atollic.com/truestudio-for-stm32-9.1.0-is-released</link>
+      <description>&lt;div class="hs-featured-image-wrapper"&gt; 
+ &lt;a href="http://blog.atollic.com/truestudio-for-stm32-9.1.0-is-released" title="" class="hs-featured-image-link"&gt; &lt;img src="https://blog.atollic.com/hubfs/stm32cubeprogrammer-501.png" alt="stm32cubeprogrammer-501" class="hs-featured-image" style="width:auto !important; max-width:50%; float:left; margin:0 15px 15px 0;"&gt; &lt;/a&gt; 
+&lt;/div&gt;    
+&lt;p&gt;In the beginning of 2018 we released the first ever version of "TrueSTUDIO for STM32". It was called version 9.0.0 to highlight that it is a major shift from old products. Version 9.0.2 came in April to provide new STM32 target support. End of last week TrueSTUDIO for STM32 version 9.1.0 was released. Read this article to learn more about new target support and updates made to the ST-LINK GDB-server.&lt;/p&gt;</description>
+      <content:encoded>&lt;div class="hs-featured-image-wrapper"&gt; 
+ &lt;a href="http://blog.atollic.com/truestudio-for-stm32-9.1.0-is-released" title="" class="hs-featured-image-link"&gt; &lt;img src="https://blog.atollic.com/hubfs/stm32cubeprogrammer-501.png" alt="stm32cubeprogrammer-501" class="hs-featured-image" style="width:auto !important; max-width:50%; float:left; margin:0 15px 15px 0;"&gt; &lt;/a&gt; 
+&lt;/div&gt;    
+&lt;p&gt;In the beginning of 2018 we released the first ever version of "TrueSTUDIO for STM32". It was called version 9.0.0 to highlight that it is a major shift from old products. Version 9.0.2 came in April to provide new STM32 target support. End of last week TrueSTUDIO for STM32 version 9.1.0 was released. Read this article to learn more about new target support and updates made to the ST-LINK GDB-server.&lt;/p&gt;    
+&lt;img src="https://track.hubspot.com/__ptq.gif?a=460400&amp;amp;k=14&amp;amp;r=http%3A%2F%2Fblog.atollic.com%2Ftruestudio-for-stm32-9.1.0-is-released&amp;amp;bu=http%253A%252F%252Fblog.atollic.com&amp;amp;bvt=rss" alt="" width="1" height="1" style="min-height:1px!important;width:1px!important;border-width:0!important;margin-top:0!important;margin-bottom:0!important;margin-right:0!important;margin-left:0!important;padding-top:0!important;padding-bottom:0!important;padding-right:0!important;padding-left:0!important; "&gt;</content:encoded>
+      <category>Atollic TrueSTUDIO</category>
+      <category>SWV</category>
+      <category>STM32CubeProgrammer</category>
+      <category>ST-LINK GDB-server</category>
+      <category>External QSPI FLASH</category>
+      <category>STM32F7VL</category>
+      <category>STM32H7VL</category>
+      <pubDate>Fri, 19 Oct 2018 13:00:39 GMT</pubDate>
+      <author>mattias.norlander@atollic.com (Mattias Norlander)</author>
+      <guid>http://blog.atollic.com/truestudio-for-stm32-9.1.0-is-released</guid>
+      <dc:date>2018-10-19T13:00:39Z</dc:date>
+    </item>
+    <item>
+      <title>Important changes to legacy TrueSTUDIO (&lt;=5.3.1) licenses</title>
+      <link>http://blog.atollic.com/legacy-license-system-shutting-down</link>
+      <description>&lt;p style="text-align: center;"&gt;&lt;span style="color: #ff0000; font-size: 16px;"&gt;&lt;strong&gt;This information is only relevant for customers of TrueSTUDIO v.5.3.1 Pro and earlier versions.&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;</description>
+      <content:encoded>&lt;p style="text-align: center;"&gt;&lt;span style="color: #ff0000; font-size: 16px;"&gt;&lt;strong&gt;This information is only relevant for customers of TrueSTUDIO v.5.3.1 Pro and earlier versions.&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;  
+&lt;img src="https://track.hubspot.com/__ptq.gif?a=460400&amp;amp;k=14&amp;amp;r=http%3A%2F%2Fblog.atollic.com%2Flegacy-license-system-shutting-down&amp;amp;bu=http%253A%252F%252Fblog.atollic.com&amp;amp;bvt=rss" alt="" width="1" height="1" style="min-height:1px!important;width:1px!important;border-width:0!important;margin-top:0!important;margin-bottom:0!important;margin-right:0!important;margin-left:0!important;padding-top:0!important;padding-bottom:0!important;padding-right:0!important;padding-left:0!important; "&gt;</content:encoded>
+      <category>Atollic TrueSTUDIO</category>
+      <category>license system</category>
+      <pubDate>Tue, 24 Apr 2018 06:48:00 GMT</pubDate>
+      <author>mattias.norlander@atollic.com (Mattias Norlander)</author>
+      <guid>http://blog.atollic.com/legacy-license-system-shutting-down</guid>
+      <dc:date>2018-04-24T06:48:00Z</dc:date>
+    </item>
+    <item>
+      <title>STM32CubeProgrammer + Atollic TrueSTUDIO for STM32</title>
+      <link>http://blog.atollic.com/stm32cubeprogrammer-atollic-truestudio-for-stm32</link>
+      <description>&lt;div class="hs-featured-image-wrapper"&gt; 
+ &lt;a href="http://blog.atollic.com/stm32cubeprogrammer-atollic-truestudio-for-stm32" title="" class="hs-featured-image-link"&gt; &lt;img src="https://blog.atollic.com/hubfs/stm32cubeprogrammer.png" alt="stm32cubeprogrammer" class="hs-featured-image" style="width:auto !important; max-width:50%; float:left; margin:0 15px 15px 0;"&gt; &lt;/a&gt; 
+&lt;/div&gt;    
+&lt;p&gt;ST recently released &lt;a href="http://www.st.com/en/development-tools/stm32cubeprog.html"&gt;STM32CubeProgrammer&lt;/a&gt;, a software tool allowing users to flash STM32 devices through the SWD/JTAG debug interface and via the UAR/USB bootloader interface. STM32CubeProgrammer can be integrated with Atollic TrueSTUDIO. This is &lt;strong&gt;&lt;em&gt;how&lt;/em&gt; &lt;/strong&gt;and &lt;strong&gt;&lt;em&gt;why&lt;/em&gt;&lt;/strong&gt;!&lt;/p&gt;</description>
+      <content:encoded>&lt;div class="hs-featured-image-wrapper"&gt; 
+ &lt;a href="http://blog.atollic.com/stm32cubeprogrammer-atollic-truestudio-for-stm32" title="" class="hs-featured-image-link"&gt; &lt;img src="https://blog.atollic.com/hubfs/stm32cubeprogrammer.png" alt="stm32cubeprogrammer" class="hs-featured-image" style="width:auto !important; max-width:50%; float:left; margin:0 15px 15px 0;"&gt; &lt;/a&gt; 
+&lt;/div&gt;    
+&lt;p&gt;ST recently released &lt;a href="http://www.st.com/en/development-tools/stm32cubeprog.html"&gt;STM32CubeProgrammer&lt;/a&gt;, a software tool allowing users to flash STM32 devices through the SWD/JTAG debug interface and via the UAR/USB bootloader interface. STM32CubeProgrammer can be integrated with Atollic TrueSTUDIO. This is &lt;strong&gt;&lt;em&gt;how&lt;/em&gt; &lt;/strong&gt;and &lt;strong&gt;&lt;em&gt;why&lt;/em&gt;&lt;/strong&gt;!&lt;/p&gt;    
+&lt;img src="https://track.hubspot.com/__ptq.gif?a=460400&amp;amp;k=14&amp;amp;r=http%3A%2F%2Fblog.atollic.com%2Fstm32cubeprogrammer-atollic-truestudio-for-stm32&amp;amp;bu=http%253A%252F%252Fblog.atollic.com&amp;amp;bvt=rss" alt="" width="1" height="1" style="min-height:1px!important;width:1px!important;border-width:0!important;margin-top:0!important;margin-bottom:0!important;margin-right:0!important;margin-left:0!important;padding-top:0!important;padding-bottom:0!important;padding-right:0!important;padding-left:0!important; "&gt;</content:encoded>
+      <category>STM32</category>
+      <category>STM32Cube</category>
+      <category>flash load</category>
+      <pubDate>Tue, 20 Feb 2018 13:29:27 GMT</pubDate>
+      <author>mattias.norlander@atollic.com (Mattias Norlander)</author>
+      <guid>http://blog.atollic.com/stm32cubeprogrammer-atollic-truestudio-for-stm32</guid>
+      <dc:date>2018-02-20T13:29:27Z</dc:date>
+    </item>
+    <item>
+      <title>TrueSTUDIO for STM32 9.0.0 released</title>
+      <link>http://blog.atollic.com/truestudio-for-stm32-9-released</link>
+      <description>&lt;div class="hs-featured-image-wrapper"&gt; 
+ &lt;a href="http://blog.atollic.com/truestudio-for-stm32-9-released" title="" class="hs-featured-image-link"&gt; &lt;img src="https://blog.atollic.com/hubfs/Blog/STM32_version.png" alt="STM32 version" class="hs-featured-image" style="width:auto !important; max-width:50%; float:left; margin:0 15px 15px 0;"&gt; &lt;/a&gt; 
+&lt;/div&gt;    
+&lt;p&gt;We made a promise in December 2017 to release a TrueSTUDIO for STM32 in early 2018. Today we are happy to announce that, after weeks of refactoring efforts, we have released a &lt;strong&gt;free &lt;/strong&gt;TrueSTUDIO for &lt;strong&gt;STM32&lt;/strong&gt; tool with the full Pro feature set unlocked to all STM32 users!&lt;/p&gt; 
+&lt;p&gt;Read more...&lt;/p&gt;</description>
+      <content:encoded>&lt;div class="hs-featured-image-wrapper"&gt; 
+ &lt;a href="http://blog.atollic.com/truestudio-for-stm32-9-released" title="" class="hs-featured-image-link"&gt; &lt;img src="https://blog.atollic.com/hubfs/Blog/STM32_version.png" alt="STM32 version" class="hs-featured-image" style="width:auto !important; max-width:50%; float:left; margin:0 15px 15px 0;"&gt; &lt;/a&gt; 
+&lt;/div&gt;    
+&lt;p&gt;We made a promise in December 2017 to release a TrueSTUDIO for STM32 in early 2018. Today we are happy to announce that, after weeks of refactoring efforts, we have released a &lt;strong&gt;free &lt;/strong&gt;TrueSTUDIO for &lt;strong&gt;STM32&lt;/strong&gt; tool with the full Pro feature set unlocked to all STM32 users!&lt;/p&gt; 
+&lt;p&gt;Read more...&lt;/p&gt;    
+&lt;img src="https://track.hubspot.com/__ptq.gif?a=460400&amp;amp;k=14&amp;amp;r=http%3A%2F%2Fblog.atollic.com%2Ftruestudio-for-stm32-9-released&amp;amp;bu=http%253A%252F%252Fblog.atollic.com&amp;amp;bvt=rss" alt="" width="1" height="1" style="min-height:1px!important;width:1px!important;border-width:0!important;margin-top:0!important;margin-bottom:0!important;margin-right:0!important;margin-left:0!important;padding-top:0!important;padding-bottom:0!important;padding-right:0!important;padding-left:0!important; "&gt;</content:encoded>
+      <category>Atollic TrueSTUDIO</category>
+      <category>STM32</category>
+      <pubDate>Fri, 19 Jan 2018 08:32:35 GMT</pubDate>
+      <author>mattias.norlander@atollic.com (Mattias Norlander)</author>
+      <guid>http://blog.atollic.com/truestudio-for-stm32-9-released</guid>
+      <dc:date>2018-01-19T08:32:35Z</dc:date>
+    </item>
+    <item>
+      <title>TrueSTUDIO Developers using STM32 devices get an early holiday gift from STMicroelectronics</title>
+      <link>http://blog.atollic.com/early-holiday-gift-from-stmicroelectronics</link>
+      <description>&lt;div class="hs-featured-image-wrapper"&gt; 
+ &lt;a href="http://blog.atollic.com/early-holiday-gift-from-stmicroelectronics" title="" class="hs-featured-image-link"&gt; &lt;img src="https://blog.atollic.com/hubfs/Blog/st_atollic_present.png" alt="st_atollic_present.png" class="hs-featured-image" style="width:auto !important; max-width:50%; float:left; margin:0 15px 15px 0;"&gt; &lt;/a&gt; 
+&lt;/div&gt;     
+&lt;h3&gt;If you have not yet heard, STMicroelectronics has acquired Atollic!&lt;/h3&gt; 
+&lt;p&gt;If you are an STM32 developer and an Atollic TrueSTUDIO user, think of it as an early holiday present. What was the paid Pro version of TrueSTUDIO will soon be made available to STM32 developers &lt;u&gt;at no charge&lt;/u&gt;.&lt;/p&gt; 
+&lt;p&gt;STâ€™s and Atollicâ€™s engineers are already at work on building a fully integrated software solution. The next-gen version of TrueSTUDIO will feature even tighter integration with the STM32 ecosystem&lt;/p&gt;</description>
+      <content:encoded>&lt;div class="hs-featured-image-wrapper"&gt; 
+ &lt;a href="http://blog.atollic.com/early-holiday-gift-from-stmicroelectronics" title="" class="hs-featured-image-link"&gt; &lt;img src="https://blog.atollic.com/hubfs/Blog/st_atollic_present.png" alt="st_atollic_present.png" class="hs-featured-image" style="width:auto !important; max-width:50%; float:left; margin:0 15px 15px 0;"&gt; &lt;/a&gt; 
+&lt;/div&gt;     
+&lt;h3&gt;If you have not yet heard, STMicroelectronics has acquired Atollic!&lt;/h3&gt; 
+&lt;p&gt;If you are an STM32 developer and an Atollic TrueSTUDIO user, think of it as an early holiday present. What was the paid Pro version of TrueSTUDIO will soon be made available to STM32 developers &lt;u&gt;at no charge&lt;/u&gt;.&lt;/p&gt; 
+&lt;p&gt;STâ€™s and Atollicâ€™s engineers are already at work on building a fully integrated software solution. The next-gen version of TrueSTUDIO will feature even tighter integration with the STM32 ecosystem&lt;/p&gt;    
+&lt;img src="https://track.hubspot.com/__ptq.gif?a=460400&amp;amp;k=14&amp;amp;r=http%3A%2F%2Fblog.atollic.com%2Fearly-holiday-gift-from-stmicroelectronics&amp;amp;bu=http%253A%252F%252Fblog.atollic.com&amp;amp;bvt=rss" alt="" width="1" height="1" style="min-height:1px!important;width:1px!important;border-width:0!important;margin-top:0!important;margin-bottom:0!important;margin-right:0!important;margin-left:0!important;padding-top:0!important;padding-bottom:0!important;padding-right:0!important;padding-left:0!important; "&gt;</content:encoded>
+      <category>Atollic TrueSTUDIO</category>
+      <category>STM32</category>
+      <pubDate>Mon, 18 Dec 2017 15:13:22 GMT</pubDate>
+      <author>stephen.martin@atollic.com (Stephen Martin)</author>
+      <guid>http://blog.atollic.com/early-holiday-gift-from-stmicroelectronics</guid>
+      <dc:date>2017-12-18T15:13:22Z</dc:date>
+    </item>
+    <item>
+      <title>Visualizing run-time statistics using FreeRTOS and Atollic TrueSTUDIO Pro</title>
+      <link>http://blog.atollic.com/visualizing-run-time-statistics-using-freertos</link>
+      <description>&lt;div class="hs-featured-image-wrapper"&gt; 
+ &lt;a href="http://blog.atollic.com/visualizing-run-time-statistics-using-freertos" title="" class="hs-featured-image-link"&gt; &lt;img src="https://blog.atollic.com/hubfs/Blog/freeRTOS%20statistics.png" alt="Visualizing run-time statistics using FreeRTOS and Atollic TrueSTUDIO Pro" class="hs-featured-image" style="width:auto !important; max-width:50%; float:left; margin:0 15px 15px 0;"&gt; &lt;/a&gt; 
+&lt;/div&gt;    
+&lt;p&gt;Atollic TrueSTUDIO Pro (v.8.1.0 and later version) have extended kernel-aware debugging support by allowing to visualise FreeRTOS run-time statistics. FreeRTOS can optionally be configured to collect information about each tasks execution time. In Atollic TrueSTUDIO the execution time for each task can be visualised as the percentage of the total execution time for the application using the kernel-aware debug views for FreeRTOS.&lt;/p&gt; 
+&lt;p&gt;In this article we describe how to make the run-time statistics work in Atollic TrueSTUDIO Pro 8.1.0.&lt;/p&gt;</description>
+      <content:encoded>&lt;div class="hs-featured-image-wrapper"&gt; 
+ &lt;a href="http://blog.atollic.com/visualizing-run-time-statistics-using-freertos" title="" class="hs-featured-image-link"&gt; &lt;img src="https://blog.atollic.com/hubfs/Blog/freeRTOS%20statistics.png" alt="Visualizing run-time statistics using FreeRTOS and Atollic TrueSTUDIO Pro" class="hs-featured-image" style="width:auto !important; max-width:50%; float:left; margin:0 15px 15px 0;"&gt; &lt;/a&gt; 
+&lt;/div&gt;    
+&lt;p&gt;Atollic TrueSTUDIO Pro (v.8.1.0 and later version) have extended kernel-aware debugging support by allowing to visualise FreeRTOS run-time statistics. FreeRTOS can optionally be configured to collect information about each tasks execution time. In Atollic TrueSTUDIO the execution time for each task can be visualised as the percentage of the total execution time for the application using the kernel-aware debug views for FreeRTOS.&lt;/p&gt; 
+&lt;p&gt;In this article we describe how to make the run-time statistics work in Atollic TrueSTUDIO Pro 8.1.0.&lt;/p&gt;    
+&lt;img src="https://track.hubspot.com/__ptq.gif?a=460400&amp;amp;k=14&amp;amp;r=http%3A%2F%2Fblog.atollic.com%2Fvisualizing-run-time-statistics-using-freertos&amp;amp;bu=http%253A%252F%252Fblog.atollic.com&amp;amp;bvt=rss" alt="" width="1" height="1" style="min-height:1px!important;width:1px!important;border-width:0!important;margin-top:0!important;margin-bottom:0!important;margin-right:0!important;margin-left:0!important;padding-top:0!important;padding-bottom:0!important;padding-right:0!important;padding-left:0!important; "&gt;</content:encoded>
+      <category>freertos</category>
+      <category>run-time stastistics</category>
+      <category>kernel-aware debug</category>
+      <category>profiling</category>
+      <pubDate>Tue, 24 Oct 2017 12:11:48 GMT</pubDate>
+      <author>mattias.norlander@atollic.com (Mattias Norlander)</author>
+      <guid>http://blog.atollic.com/visualizing-run-time-statistics-using-freertos</guid>
+      <dc:date>2017-10-24T12:11:48Z</dc:date>
+    </item>
+    <item>
+      <title>Eclipse/GNU/Cortex-M 3-day hands-on training in Eindhoven</title>
+      <link>http://blog.atollic.com/hands-on-eclipse-gnu-arm_cortex_m-training-2017</link>
+      <description>&lt;div class="hs-featured-image-wrapper"&gt; 
+ &lt;a href="http://blog.atollic.com/hands-on-eclipse-gnu-arm_cortex_m-training-2017" title="" class="hs-featured-image-link"&gt; &lt;img src="http://blog.atollic.com/hubfs/Blog/ARM-Eclipse-GNU-Training.png" alt="ARM-Eclipse-GNU-Training.png" class="hs-featured-image" style="width:auto !important; max-width:50%; float:left; margin:0 15px 15px 0;"&gt; &lt;/a&gt; 
+&lt;/div&gt;     
+&lt;p&gt;Join us from 13-15 September 2017 in Eindhoven to learn the skills you need to be a professional embedded developer. We are offering an intensive 3-day, hands-on training course in ARM Cortex-M development. This training will teach you everything worth knowing about the Cortex-M cores and the GNU compiler and debugger tool chain. You will also learn the ins- and outs- of the ECLIPSEÂ® IDE, and how to use it for advanced Cortex-M development and debugging.&lt;/p&gt; 
+&lt;p&gt;Learn the essential skills you need to be a professional embedded developer with this hands-on training course.&lt;/p&gt;</description>
+      <content:encoded>&lt;div class="hs-featured-image-wrapper"&gt; 
+ &lt;a href="http://blog.atollic.com/hands-on-eclipse-gnu-arm_cortex_m-training-2017" title="" class="hs-featured-image-link"&gt; &lt;img src="http://blog.atollic.com/hubfs/Blog/ARM-Eclipse-GNU-Training.png" alt="ARM-Eclipse-GNU-Training.png" class="hs-featured-image" style="width:auto !important; max-width:50%; float:left; margin:0 15px 15px 0;"&gt; &lt;/a&gt; 
+&lt;/div&gt;     
+&lt;p&gt;Join us from 13-15 September 2017 in Eindhoven to learn the skills you need to be a professional embedded developer. We are offering an intensive 3-day, hands-on training course in ARM Cortex-M development. This training will teach you everything worth knowing about the Cortex-M cores and the GNU compiler and debugger tool chain. You will also learn the ins- and outs- of the ECLIPSEÂ® IDE, and how to use it for advanced Cortex-M development and debugging.&lt;/p&gt; 
+&lt;p&gt;Learn the essential skills you need to be a professional embedded developer with this hands-on training course.&lt;/p&gt;    
+&lt;img src="https://track.hubspot.com/__ptq.gif?a=460400&amp;amp;k=14&amp;amp;r=http%3A%2F%2Fblog.atollic.com%2Fhands-on-eclipse-gnu-arm_cortex_m-training-2017&amp;amp;bu=http%253A%252F%252Fblog.atollic.com&amp;amp;bvt=rss" alt="" width="1" height="1" style="min-height:1px!important;width:1px!important;border-width:0!important;margin-top:0!important;margin-bottom:0!important;margin-right:0!important;margin-left:0!important;padding-top:0!important;padding-bottom:0!important;padding-right:0!important;padding-left:0!important; "&gt;</content:encoded>
+      <category>Events</category>
+      <pubDate>Thu, 24 Aug 2017 18:49:20 GMT</pubDate>
+      <author>stephen.martin@atollic.com (Stephen Martin)</author>
+      <guid>http://blog.atollic.com/hands-on-eclipse-gnu-arm_cortex_m-training-2017</guid>
+      <dc:date>2017-08-24T18:49:20Z</dc:date>
+    </item>
+    <item>
+      <title>How "LIVE" do you want to be?</title>
+      <link>http://blog.atollic.com/how-live-do-you-want-to-be</link>
+      <description>&lt;div class="hs-featured-image-wrapper"&gt; 
+ &lt;a href="http://blog.atollic.com/how-live-do-you-want-to-be" title="" class="hs-featured-image-link"&gt; &lt;img src="http://blog.atollic.com/hubfs/Blog/live%20expressions%20view%20in%20TrueSTUDIO%20Pro.jpg" alt="live expressions view in TrueSTUDIO Pro.jpg" class="hs-featured-image" style="width:auto !important; max-width:50%; float:left; margin:0 15px 15px 0;"&gt; &lt;/a&gt; 
+&lt;/div&gt;     
+&lt;p&gt;Many embedded developers new to ARM Cortex-M devices are unaware of the powerful debug capabilities these devices enable in their silicon design. Professional IDEs, like Atollic TrueSTUDIO Pro, leverage these and provide debugging power any professional embedded developer should be aware of.&lt;br&gt;&lt;br&gt;In this blog post, I will explain how Cortex-M cores enable highly useful debugger features for â€œliveâ€� visualization of variable values in real-time.&lt;/p&gt;</description>
+      <content:encoded>&lt;div class="hs-featured-image-wrapper"&gt; 
+ &lt;a href="http://blog.atollic.com/how-live-do-you-want-to-be" title="" class="hs-featured-image-link"&gt; &lt;img src="http://blog.atollic.com/hubfs/Blog/live%20expressions%20view%20in%20TrueSTUDIO%20Pro.jpg" alt="live expressions view in TrueSTUDIO Pro.jpg" class="hs-featured-image" style="width:auto !important; max-width:50%; float:left; margin:0 15px 15px 0;"&gt; &lt;/a&gt; 
+&lt;/div&gt;     
+&lt;p&gt;Many embedded developers new to ARM Cortex-M devices are unaware of the powerful debug capabilities these devices enable in their silicon design. Professional IDEs, like Atollic TrueSTUDIO Pro, leverage these and provide debugging power any professional embedded developer should be aware of.&lt;br&gt;&lt;br&gt;In this blog post, I will explain how Cortex-M cores enable highly useful debugger features for â€œliveâ€� visualization of variable values in real-time.&lt;/p&gt;    
+&lt;img src="https://track.hubspot.com/__ptq.gif?a=460400&amp;amp;k=14&amp;amp;r=http%3A%2F%2Fblog.atollic.com%2Fhow-live-do-you-want-to-be&amp;amp;bu=http%253A%252F%252Fblog.atollic.com&amp;amp;bvt=rss" alt="" width="1" height="1" style="min-height:1px!important;width:1px!important;border-width:0!important;margin-top:0!important;margin-bottom:0!important;margin-right:0!important;margin-left:0!important;padding-top:0!important;padding-bottom:0!important;padding-right:0!important;padding-left:0!important; "&gt;</content:encoded>
+      <pubDate>Fri, 28 Jul 2017 12:26:05 GMT</pubDate>
+      <author>stephen.martin@atollic.com (Stephen Martin)</author>
+      <guid>http://blog.atollic.com/how-live-do-you-want-to-be</guid>
+      <dc:date>2017-07-28T12:26:05Z</dc:date>
+    </item>
+    <item>
+      <title>The Embedded Developer is Dead â€“ Long Live the Embedded Developer!</title>
+      <link>http://blog.atollic.com/the-embedded-developer-is-dead-long-live-the-embedded-developer</link>
+      <description>&lt;div class="hs-featured-image-wrapper"&gt; 
+ &lt;a href="http://blog.atollic.com/the-embedded-developer-is-dead-long-live-the-embedded-developer" title="" class="hs-featured-image-link"&gt; &lt;img src="http://blog.atollic.com/hubfs/Blog/developers.jpg" alt="embedded developers" class="hs-featured-image" style="width:auto !important; max-width:50%; float:left; margin:0 15px 15px 0;"&gt; &lt;/a&gt; 
+&lt;/div&gt;    
+&lt;p&gt;&lt;span style="background-color: transparent; font-weight: 300; color: #727272; font-size: 14px;"&gt;Most industries change over time, and some are even significantly disrupted. I would argue the embedded industry is quite conservative and resistant to change. For example, in spite of all the hardware and connectivity changes over the last 20 years the tasks of an embedded developer havenâ€™t changed much.&lt;/span&gt;&lt;/p&gt;</description>
+      <content:encoded>&lt;div class="hs-featured-image-wrapper"&gt; 
+ &lt;a href="http://blog.atollic.com/the-embedded-developer-is-dead-long-live-the-embedded-developer" title="" class="hs-featured-image-link"&gt; &lt;img src="http://blog.atollic.com/hubfs/Blog/developers.jpg" alt="embedded developers" class="hs-featured-image" style="width:auto !important; max-width:50%; float:left; margin:0 15px 15px 0;"&gt; &lt;/a&gt; 
+&lt;/div&gt;    
+&lt;p&gt;&lt;span style="background-color: transparent; font-weight: 300; color: #727272; font-size: 14px;"&gt;Most industries change over time, and some are even significantly disrupted. I would argue the embedded industry is quite conservative and resistant to change. For example, in spite of all the hardware and connectivity changes over the last 20 years the tasks of an embedded developer havenâ€™t changed much.&lt;/span&gt;&lt;/p&gt;    
+&lt;img src="https://track.hubspot.com/__ptq.gif?a=460400&amp;amp;k=14&amp;amp;r=http%3A%2F%2Fblog.atollic.com%2Fthe-embedded-developer-is-dead-long-live-the-embedded-developer&amp;amp;bu=http%253A%252F%252Fblog.atollic.com&amp;amp;bvt=rss" alt="" width="1" height="1" style="min-height:1px!important;width:1px!important;border-width:0!important;margin-top:0!important;margin-bottom:0!important;margin-right:0!important;margin-left:0!important;padding-top:0!important;padding-bottom:0!important;padding-right:0!important;padding-left:0!important; "&gt;</content:encoded>
+      <category>Embedded Software Development</category>
+      <pubDate>Wed, 12 Jul 2017 15:13:50 GMT</pubDate>
+      <author>magnus.unemyr@atollic.com (Magnus Unemyr)</author>
+      <guid>http://blog.atollic.com/the-embedded-developer-is-dead-long-live-the-embedded-developer</guid>
+      <dc:date>2017-07-12T15:13:50Z</dc:date>
+    </item>
+  </channel>
+</rss>

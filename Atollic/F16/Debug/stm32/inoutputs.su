@@ -1,0 +1,13 @@
+inoutputs.c:58:6:outputs_digital_reset	0	static
+inoutputs.c:47:6:inoutputs_init	0	static
+inoutputs.c:65:6:outputs_digital_set	0	static
+inoutputs.c:73:9:outputs_get_digital_state	0	static
+inoutputs.c:87:6:outputs_set_digital	0	static
+inoutputs.c:98:6:outputs_digital_action	16	static
+inoutputs.c:119:6:outputs_analog_init	0	static
+inoutputs.c:121:6:outputs_analog_set	0	static
+inoutputs.c:123:6:outputs_set_analog	0	static
+inoutputs.c:125:10:outputs_compute_pwm_value	0	static
+inoutputs.c:127:6:outputs_analog_action	0	static
+inoutputs.c:129:6:inputs_digital_init	0	static
+inoutputs.c:131:6:wait_on_input_action	0	static

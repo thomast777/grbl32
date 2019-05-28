@@ -1,0 +1,8 @@
+nuts_bolts.c:36:9:read_float	48	static
+nuts_bolts.c:112:6:_delay_ms	0	static
+nuts_bolts.c:138:6:delay_sec	16	static
+nuts_bolts.c:158:6:delay_ms	8	static
+nuts_bolts.c:167:6:delay_us	8	static
+nuts_bolts.c:188:7:hypot_f	16	static
+nuts_bolts.c:191:7:convert_delta_vector_to_unit_vector	32	static
+nuts_bolts.c:207:7:limit_value_by_axis_maximum	32	static

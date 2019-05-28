@@ -1,0 +1,4 @@
+main.c:210:6:SystemClock_Config	96	static
+main.c:87:5:main	24	static
+main.c:273:6:Analog_Timer_Init	0	static
+main.c:300:6:Error_Handler	0	static

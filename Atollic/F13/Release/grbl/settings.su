@@ -1,0 +1,12 @@
+settings.c:33:6:settings_store_startup_line	16	static
+settings.c:45:6:settings_store_build_info	0	static
+settings.c:53:6:settings_write_coord_data	16	static
+settings.c:65:6:write_global_settings	8	static
+settings.c:73:6:settings_restore	32	static
+settings.c:179:9:settings_read_startup_line	16	static
+settings.c:193:9:settings_read_build_info	16	static
+settings.c:206:9:settings_read_coord_data	16	static
+settings.c:235:9:read_global_settings	8	static
+settings.c:251:9:settings_store_global_setting	16	static
+settings.c:371:6:acceleration_scaling	24	static
+settings.c:400:6:settings_init	8	static

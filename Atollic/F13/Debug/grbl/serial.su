@@ -1,0 +1,8 @@
+serial.c:49:9:serial_get_rx_buffer_available	0	static
+serial.c:59:9:serial_get_rx_buffer_count	0	static
+serial.c:69:9:serial_get_tx_buffer_count	0	static
+serial.c:76:6:serial_init	0	static
+serial.c:99:6:serial_write	0	static
+serial.c:145:9:serial_read	0	static
+serial.c:162:6:HandleUartIT	4	static
+serial.c:284:6:serial_reset_read_buffer	0	static

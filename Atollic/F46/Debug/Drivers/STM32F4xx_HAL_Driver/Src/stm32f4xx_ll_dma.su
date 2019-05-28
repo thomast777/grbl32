@@ -1,0 +1,3 @@
+stm32f4xx_ll_dma.c:156:10:LL_DMA_DeInit	12	static
+stm32f4xx_ll_dma.c:285:10:LL_DMA_Init	16	static
+stm32f4xx_ll_dma.c:385:6:LL_DMA_StructInit	0	static
