@@ -1,3 +1,0 @@
-gcode.c:42:6:gc_init	8	static
-gcode.c:56:6:gc_sync_position	0	static
-gcode.c:66:9:gc_execute_line	128	static

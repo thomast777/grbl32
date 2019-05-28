@@ -1,5 +1,0 @@
-coolant_control.c:36:9:coolant_get_state	0	static
-coolant_control.c:78:6:coolant_stop	8	static
-coolant_control.c:23:6:coolant_init	0	static
-coolant_control.c:130:6:coolant_set_state	16	static
-coolant_control.c:195:6:coolant_sync	8	static

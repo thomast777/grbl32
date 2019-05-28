@@ -1,6 +1,0 @@
-lcd-i2c.c:42:6:I2C_Scan	112	static
-lcd-i2c.c:66:19:LCD_SendInternal	40	static
-lcd-i2c.c:90:6:LCD_SendCommand	0	static
-lcd-i2c.c:95:6:LCD_SendData	0	static
-lcd-i2c.c:100:6:LCD_Init	8	static
-lcd-i2c.c:114:6:LCD_SendString	16	static

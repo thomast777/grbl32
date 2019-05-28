@@ -1,6 +1,0 @@
-eeprom.c:61:6:eeprom_flush	24	static
-eeprom.c:108:6:eeprom_init	12	static
-eeprom.c:139:15:eeprom_get_char	0	static
-eeprom.c:168:6:eeprom_put_char	0	static
-eeprom.c:229:6:memcpy_to_eeprom_with_checksum	16	static
-eeprom.c:244:5:memcpy_from_eeprom_with_checksum	20	static

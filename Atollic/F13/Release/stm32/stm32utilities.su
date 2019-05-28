@@ -1,9 +1,0 @@
-stm32utilities.c:106:6:timing_init	8	static
-stm32utilities.c:113:7:ByteToBin	12	static
-stm32utilities.c:125:7:Int16ToBin	12	static
-stm32utilities.c:159:6:uart_sendch	0	static
-stm32utilities.c:153:6:uart_sendstr	8	static
-stm32utilities.c:139:6:uart_init	8	static
-stm32utilities.c:168:6:GPIO_ResetBits	0	static
-stm32utilities.c:172:6:GPIO_SetBits	0	static
-stm32utilities.c:437:6:spi_limits_init	0	static
