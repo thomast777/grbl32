@@ -33,7 +33,7 @@ Some additional M codes supported by Grbl32:
   * Set PWM Channel 7 (RC Servo 7) to a PPM pulse of 2500 usec (usually full right)
     ```
     M67 E7 Q2500
-   ```
+    ```
 * M100 : custom M-code, in code acceleration scaling to something less than 100%.
   * Change accelleration of X axis to 80% of $120
     ```
