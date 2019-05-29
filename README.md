@@ -21,7 +21,7 @@ Some additional M codes supported by Grbl32:
     ```
     M66 P0 L3 Q10
     ```
- * Wait for input bit 7 to turn OFF (go LOW), timeout after 12.5 seconds
+  * Wait for input bit 7 to turn OFF (go LOW), timeout after 12.5 seconds
     ```
     M66 P7 L4 Q12.5
     ```
