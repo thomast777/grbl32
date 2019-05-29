@@ -702,7 +702,7 @@
  * example: M100 P0 Q0.95
  * 					 change acceleration of X axis to 95% of $120
  * 					M100 P4 Q0.5
- * 					 change acceleration of A axis to 50% of $123
+ * 					 change acceleration of B axis to 50% of $124
  * 					M100 P255 Q0.1
  * 					 change acceleration of ALL axis to 10%
  * 					M100 P255 Q1
