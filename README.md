@@ -7,15 +7,30 @@ Expanding the venerable Grbl universe of AVR 328p Arduinos to the STM32 platform
 </p>
 
 ### Hightlights:
-* Up to 6-axis: XYZ ABC. Conditional compilation symbols for compiling 3, 4, 5, 6 axis.
+* Up to 6-axis: XYZ ABC.
 * Communication Baud Rate of 921,600. Releases wil still contain 115,200 versions for older software compatibility.
 * The STM32F103 [ARM Cortex M3] will clock up to 250 KHz for each axis while under 3-axis coordinated motion,  150 KHz when running 6-axis.
 * The STM32F407 [ARM Cortex M4] sports the warp speed of up to 500+KHz for each axis while under 6-axis coordinated motion.
-* ST TrueStudio (Atollic) IDE, with CubeMX.
-* Common /grbl code for three sub-branches under /Atollic/:
+
+### Development Notes:
+* All reasonable attempts were made to keep the Grbl 1.1f source intact. Whenever possible, calls to STM32 hardware are contained in:
+  ```
+  #ifdef STM32
+  ...
+  #endif
+  ```
+* For reference, the older AVR codes are kept in:
+  ```
+  #ifdef ATMEGA328P
+  ...
+  #endif
+  ```
+* ST TrueStudio (Atollic) IDE, with CubeMX for pins/timers/peripherals selection.
+* Common /grbl and /stm32 folders for three sub-branches under /Atollic/:
   * F13 : 3-Axis running STM32F103
-  * F16 : 6-Axis running STM32F103
-  * F46 : 6-Axis running STM32F407
+  * F16 : 6-Axis running STM32F103. Conditional compilation symbols available for compiling 3, 4, 5, 6 axis.
+  * F46 : 6-Axis running STM32F407. Conditional compilation symbols available for compiling 3, 4, 5, 6 axis.
+
 
 ### Some additional M codes supported by Grbl32:
 * M62/M63 : digital output. Examples:
