@@ -8,13 +8,13 @@ The STM32F407 [ARM Cortex M4] sports the warp speed of 500+KHz running 6-axis.
 
 Some additional M codes supported by Grbl32:
 * M62/M63 : digital output. Examples:
-```
-M62 P0
-```
+    ```
+    M62 P0
+    ```
 will turn ON bit 0
-```
-M63 P1
-```
+    ```
+    M63 P1
+    ```
 will turn OFF bit 1
 * M66 : wait on digital input.
 * M67 : analog output, additional PWM controls.
