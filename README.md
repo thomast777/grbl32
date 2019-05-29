@@ -3,6 +3,8 @@
 
 Expanding the venerable Grbl universe of AVR 328p Arduinos to the STM32 platform.  Now running on the STM32F103 "blue pill" and STM32F407 controllers. Breaking out of the memory and clock constraints of the 328p, Grbl32 supports up to 6-axis with an order of magnitude increase in pulse rate. 
 
+![](https://raw.githubusercontent.com/thomast777/media/master/TR/grbl32-0215-800x800.png)
+
 ### Hightlights:
 * Up to 6-axis: XYZ ABC. Conditional compilation symbols for compiling 3, 4, 5, 6 axis.
 * Communication Baud Rate of 921,600. Releases wil still contain 115,200 for older software compatibility.
