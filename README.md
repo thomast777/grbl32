@@ -7,7 +7,8 @@ The STM32F103 [ARM Cortex M3] will clock in at 250 KHz when running the traditio
 The STM32F407 [ARM Cortex M4] sports the warp speed of 500+KHz running 6-axis.
 
 Some additional M codes supported by Grbl32:
-* M62/M63 : digital output. Examples:
+* M62/M63 : digital output. 
+Examples:
   * To turn ON bit 0
     ```
     M62 P0
