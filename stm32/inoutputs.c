@@ -26,20 +26,19 @@
 #include "grbl.h"
 
 #ifdef STM32F1
-#ifdef STM32F13
-const PIN_MASK outputs_pin_mask[N_OUTPUTS_DIG] =
-  {
-  AUX_1_Pin,AUX_2_Pin,AUX_3_Pin,AUX_4_Pin,
-  };
-#endif
+  #ifdef STM32F13
+  const PIN_MASK outputs_pin_mask[N_OUTPUTS_DIG] =
+    {
+    AUX_1_Pin,AUX_2_Pin,AUX_3_Pin,AUX_4_Pin,
+    };
+  #endif
 
-#ifdef STM32F16
-const PIN_MASK outputs_pin_mask[N_OUTPUTS_DIG] =
-  {
-  AUX_1_Pin,
-  };
-#endif
-
+  #ifdef STM32F16
+  const PIN_MASK outputs_pin_mask[N_OUTPUTS_DIG] =
+    {
+    AUX_1_Pin,
+    };
+  #endif
 #endif
 
 #ifdef STM32F4

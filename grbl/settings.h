@@ -118,7 +118,8 @@ typedef struct {
   float homing_pulloff;
 
   //-- GRBL32 Customs
-  float analog_max;
+  float analog_max;                 //-- $40
+  uint8_t spindle_enable_pin_mode;  //-- $50  0: default behavior, nothing.  1: call set enable pin normal.  2: call set enable pin inverted
 
 } settings_t;
 extern settings_t settings;

@@ -147,6 +147,7 @@
   #define DEFAULT_LASER_MODE 0 // false									$32
 
   #define DEFAULT_ANALOG_MAX 10000.0f //analog value		$40
+  #define DEFAULT_VARIABLE_SPINDLE_ENABLE_PIN 0               //$50
 
 #endif
 

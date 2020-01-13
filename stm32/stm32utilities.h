@@ -37,6 +37,7 @@
 
 #include "main.h"
 #include "g32core.h"
+#include "grbl.h"
 
 
 extern const PIN_MASK step_pin_mask[N_AXIS];
@@ -74,6 +75,11 @@ void Limit_IT_Start();
 	void Spindle_PWM_Set(uint16_t uPWM);
 #endif
 */
+
+
+void Spindle_Disable();
+void Spindle_Enable();
+
 
 void timing_init();
 

@@ -210,9 +210,16 @@ void report_grbl_settings() {
     report_util_uint8_setting(32,0);
   #endif
 
-	#ifdef ENABLE_ANALOG_OUTPUT
+  #ifdef ENABLE_ANALOG_OUTPUT
     report_util_float_setting(40,settings.analog_max,N_DECIMAL_SETTINGVALUE);
-	#endif
+  #endif
+
+  #ifdef VARIABLE_SPINDLE_ENABLE_PIN
+    report_util_uint8_setting(50,settings.spindle_enable_pin_mode);
+  #endif
+
+
+
 
   // Print axis settings
   uint8_t idx, set_idx;

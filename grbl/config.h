@@ -710,4 +710,25 @@
  *
  */
 
-#endif
+
+#define VARIABLE_SPINDLE_ENABLE_PIN
+/*
+ * Simple mode to enable usage of spindle enable pin while running  VARIABLE_SPINDLE
+ * the paramter is settings_t.spindle_enable_pin_mode in settings.h;
+ *
+ * this will allow usage of the spindle enable pin as a runtime parameter instead of
+ * the more complicated conditionals : USE_SPINDLE_DIR_AS_ENABLE_PIN  and INVERT_SPINDLE_ENABLE_PIN
+ *
+ * Typical usage for driving a Laser PSU enable pin in Laser Mode.
+ *
+ * saved as
+ * //-- $50     0: default behavior, nothing.
+ *              1: call set enable pin normal.
+ *              2: call set enable pin inverted
+ */
+
+
+
+
+
+#endif //-- inclusion

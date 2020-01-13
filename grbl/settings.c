@@ -91,6 +91,7 @@ void settings_restore(uint8_t restore_flag) {
     settings.homing_pulloff = DEFAULT_HOMING_PULLOFF;
 
     settings.analog_max = DEFAULT_ANALOG_MAX;
+    settings.spindle_enable_pin_mode = DEFAULT_VARIABLE_SPINDLE_ENABLE_PIN;
 
     settings.flags = 0;
     if (DEFAULT_REPORT_INCHES) { settings.flags |= BITFLAG_REPORT_INCHES; }
@@ -354,9 +355,19 @@ uint8_t settings_store_global_setting(uint8_t parameter, float value) {
           return(STATUS_SETTING_DISABLED_LASER);
         #endif
         break;
-			#ifdef ENABLE_ANALOG_OUTPUT
-      case 40: settings.analog_max = value; outputs_analog_init(); break; // Re-initialize analog outputs calibration
-			#endif
+
+      #ifdef ENABLE_ANALOG_OUTPUT
+      case 40:
+        settings.analog_max = value;
+        outputs_analog_init(); // Re-initialize analog outputs calibration
+        break;
+	  #endif
+
+      #ifdef VARIABLE_SPINDLE_ENABLE_PIN
+      case 50:
+        settings.spindle_enable_pin_mode = int_value;
+        break;
+      #endif
 
       default:
         return(STATUS_INVALID_STATEMENT);

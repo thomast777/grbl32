@@ -66,7 +66,7 @@
    * for TIM2;    PWM_FREQUENCY = 72000000 / (PSC+1) * (ARR+1)
    * for GRBL, a PWM_FREQUENCY of 10KHz is desirable for a Laser Engraver
    * then           10000 = 72000000 / (ARR+1)
-   * makes            ARR = (84000000/10000) - 1
+   * makes            ARR = (72000000/10000) - 1
    *                  ARR = 7199
    *                          a little less than 13bit resolution (8192 steps to represent 0 to 5V)
    *                          for a 5000 RPM range spindle, the resolution is about 0.7 RPM
@@ -84,8 +84,8 @@
   #define SPINDLE_CHANNEL   LL_TIM_CHANNEL_CH1
   #define Spindle_Timer_Init()        { LL_TIM_CC_EnableChannel(SPINDLE_TIMER,SPINDLE_CHANNEL); LL_TIM_DisableAllOutputs(SPINDLE_TIMER); LL_TIM_EnableCounter(SPINDLE_TIMER); } //-- start timer with PWM disabled
 
-  #define Spindle_Disable()           LL_TIM_DisableAllOutputs(SPINDLE_TIMER)
-  #define Spindle_Enable()            LL_TIM_EnableAllOutputs(SPINDLE_TIMER)
+//  #define Spindle_Disable()           LL_TIM_DisableAllOutputs(SPINDLE_TIMER)
+//  #define Spindle_Enable()            LL_TIM_EnableAllOutputs(SPINDLE_TIMER)
   #define Set_Spindle_Speed(pwmVal)   LL_TIM_OC_SetCompareCH1(SPINDLE_TIMER,pwmVal)
 
 
