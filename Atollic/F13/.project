@@ -74,12 +74,12 @@
 		<link>
 			<name>grbl</name>
 			<type>2</type>
-			<location>I:/core32/micro/stm32/GRBL32/grbl</location>
+			<location>../../grbl</location>
 		</link>
 		<link>
 			<name>stm32</name>
 			<type>2</type>
-			<location>I:/core32/micro/stm32/GRBL32/stm32</location>
+			<location>../../stm32</location>
 		</link>
 	</linkedResources>
 </projectDescription>
