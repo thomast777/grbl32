@@ -107,7 +107,11 @@ typedef struct {
   #endif
 
   uint8_t execute_step;     // Flags step execution for each interrupt.
-  uint8_t step_pulse_time;  // Step pulse reset time after step rise
+  #ifdef STM32
+	uint16_t step_pulse_time;  // Step pulse reset time after step rise - need more bits @ 72Mhz
+  #else
+  	uint8_t step_pulse_time;  // Step pulse reset time after step rise
+  #endif
   PIN_MASK step_outbits;         // The next stepping-bits to be output
   PIN_MASK dir_outbits;
   #ifdef ADAPTIVE_MULTI_AXIS_STEP_SMOOTHING
@@ -1199,5 +1203,3 @@ float st_get_realtime_rate()
   }
   return 0.0f;
 }
-
-
